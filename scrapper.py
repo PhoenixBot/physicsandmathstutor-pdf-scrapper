@@ -4,9 +4,7 @@ url = "https://www.physicsandmathstutor.com/past-papers/gcse-maths/aqa-paper-1/"
 
 # url = "https://www.physicsandmathstutor.com/maths-revision/gcse-number/"
 
-
 data = requests.request("GET", url).text
-
 
 buffer = []
 
